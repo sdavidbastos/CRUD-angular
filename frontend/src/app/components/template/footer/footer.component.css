@@ -1,0 +1,12 @@
+mat-toolbar.footer{
+    position: fixed;
+    bottom: 0;
+
+    display: flex;
+    justify-content: flex-end;
+}
+
+mat-toolbar.footer > span{
+    font-size: 1rem;
+    font-weight: 300;
+}
