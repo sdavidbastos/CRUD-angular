@@ -19,6 +19,21 @@
       "name": "Freezer",
       "price": "1000.99",
       "id": 4
+    },
+    {
+      "name": "Veio do formulario",
+      "price": "9999",
+      "id": 5
+    },
+    {
+      "name": "Veio do formulario Tb",
+      "price": "1000.95",
+      "id": 6
+    },
+    {
+      "name": "Computador Game",
+      "price": "10000.80",
+      "id": 7
     }
   ]
 }
