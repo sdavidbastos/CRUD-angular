@@ -2,7 +2,6 @@ form {
   display: flex;
   flex-direction: column;
 }
-
 button {
   margin: 24px 16px 0px 0px;
 }

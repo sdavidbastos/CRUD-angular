@@ -3,7 +3,7 @@ import { MatPaginator } from "@angular/material/paginator";
 import { MatSort } from "@angular/material/sort";
 import { map } from "rxjs/operators";
 import { Observable, of as observableOf, merge } from "rxjs";
-import { Product } from "../produc.model";
+import { Product } from "../product.model";
 
 export // TODO: replace this with real data from your application
 const EXAMPLE_DATA: Product[] = [
