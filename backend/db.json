@@ -34,6 +34,27 @@
       "name": "Computador Game",
       "price": "10000.80",
       "id": 7
+    },
+    {
+      "id": 8,
+      "name": "teste",
+      "price": "123"
+    },
+    {
+      "id": 9
+    },
+    {
+      "id": 10
+    },
+    {
+      "name": "teste",
+      "price": "100",
+      "id": 11
+    },
+    {
+      "name": "David",
+      "price": "999999999999999999999999999999",
+      "id": 12
     }
   ]
 }

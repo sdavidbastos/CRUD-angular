@@ -9,7 +9,11 @@ import { Product } from "../product.model";
   styleUrls: ["./product-create.component.css"],
 })
 export class ProductCreateComponent implements OnInit {
-  product: Product;
+  // Deve-se inicializar a variável
+  product: Product = {
+    name: "",
+    price: 0
+  };
 
   constructor(private productService: ProductService, private router: Router) {}
 
@@ -17,6 +21,7 @@ export class ProductCreateComponent implements OnInit {
 
   createProduct(): void {
     this.productService.create(this.product).subscribe(() => {
+      console.log(this.product)
       this.productService.showMessage("Produto criado com sucesso");
       this.router.navigate(["/products"]);
     });
