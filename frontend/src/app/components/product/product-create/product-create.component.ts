@@ -9,7 +9,10 @@ import { Product } from "../product.model";
   styleUrls: ["./product-create.component.css"],
 })
 export class ProductCreateComponent implements OnInit {
-  // Deve-se inicializar a variável
+  /**
+   * Deve-ser inicializar a variavel para
+   * que o two way data bind funcione corretamente
+   */
   product: Product = {
     name: "",
     price: 0
