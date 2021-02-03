@@ -1,13 +1,13 @@
 .header{
     display: flex;
     align-items: center;
-    /* justify-content: center; */
 }
 
 .header span a {
     display: flex;
     align-items: center;
     text-decoration: none;
+    color: #333;
 } 
 
 .header span a img.logo{
